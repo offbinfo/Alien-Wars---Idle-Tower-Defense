@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03b5ecaad34cf14eb5c6bbf02a28089, type: 3}
+  m_Name: IMPULSE_WAVE_SIZE
+  m_EditorClassIdentifier: 
+  subjectType: 2
+  id: 18
+  format: 0
+  levelMax: 20
+  property: {x: 0, y: 0.05, z: 0}
+  priceGold: {x: 88490, y: -246470, z: 257980}
+  time: {x: 330, y: 13110, z: -3480}
+  labCategory: 14
+  buyingType: 4

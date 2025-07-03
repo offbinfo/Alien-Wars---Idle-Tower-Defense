@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ccdd4c51a32b3741ba0acbcb793731e, type: 3}
+  m_Name: ThemeSongSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8300000, guid: 4a78e7e1a62252c43b91932f0b6861c3, type: 3}
+    - {fileID: 8300000, guid: 0bfdab578e09f914c975f0194e5a8abe, type: 3}
+    - {fileID: 8300000, guid: bbe496e8b422b8541b995c053a654aee, type: 3}
+    - {fileID: 8300000, guid: 0bcf7d4f2c398d6469662099b2f2d742, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: themeSongDicts
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[TypeSong, Assembly-CSharp],[ThemeSongData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[TypeSong, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|ThemeSongData, Assembly-CSharp
+    - Name: actor
+      Entry: 1
+      Data: mac vucam
+    - Name: name
+      Entry: 1
+      Data: Default
+    - Name: audioClip
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 3|ThemeSongData, Assembly-CSharp
+    - Name: actor
+      Entry: 1
+      Data: mac vucam
+    - Name: name
+      Entry: 1
+      Data: In The End
+    - Name: audioClip
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 4|ThemeSongData, Assembly-CSharp
+    - Name: actor
+      Entry: 1
+      Data: mac vucam
+    - Name: name
+      Entry: 1
+      Data: Moment
+    - Name: audioClip
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 5|ThemeSongData, Assembly-CSharp
+    - Name: actor
+      Entry: 1
+      Data: mac vucam
+    - Name: name
+      Entry: 1
+      Data: Nothing else matter
+    - Name: audioClip
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

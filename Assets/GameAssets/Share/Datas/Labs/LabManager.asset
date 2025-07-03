@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b838dfa9e719f2b499030d938bf0d3ab, type: 3}
+  m_Name: LabManager
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: d8ed060e8efb40140bca966512c3e0f0, type: 2}
+    - {fileID: 11400000, guid: f96234d63d2044349b42d4ff7f9a8eab, type: 2}
+    - {fileID: 11400000, guid: 474f45c3d7dbe4941a2f6c286ddf7bde, type: 2}
+    - {fileID: 11400000, guid: c1f40f73c032a7449a006fca55965dcb, type: 2}
+    - {fileID: 11400000, guid: 29a35d1be688b6c40b36823950c2506a, type: 2}
+    - {fileID: 11400000, guid: dd52995e3ea1ff543bbe7cc349db8732, type: 2}
+    - {fileID: 11400000, guid: da3d32e13ea61ad4cbffba4f67d3ccc0, type: 2}
+    - {fileID: 11400000, guid: bb9d201a8fd14624dbf5d355bd205edc, type: 2}
+    - {fileID: 11400000, guid: dd67d7748f5a435478632239c8c717e3, type: 2}
+    - {fileID: 11400000, guid: 58b3a0ebdc9a81c45932b61d84c7d395, type: 2}
+    - {fileID: 11400000, guid: 2fe46036f6dcfd148a2fecfde7cf44a4, type: 2}
+    - {fileID: 11400000, guid: babdfd2d53800ca4e97c325358f2854b, type: 2}
+    - {fileID: 11400000, guid: 04cefabb3a897a84e9da888e460bc2e0, type: 2}
+    - {fileID: 11400000, guid: 2f70b025f5750b94cbaa564e67a0826a, type: 2}
+    - {fileID: 11400000, guid: 93e50944e9ac63140b1b54745f05f5ce, type: 2}
+    - {fileID: 11400000, guid: 97599d864853525489aa92b0a17e2c20, type: 2}
+    - {fileID: 11400000, guid: bb674dfd31e7e79498a4656bae824d44, type: 2}
+    - {fileID: 11400000, guid: 50556c2be9cbbd9469f6284363c468a5, type: 2}
+    - {fileID: 11400000, guid: 7ca17d2945bfb764bb170aaa903b0905, type: 2}
+    - {fileID: 11400000, guid: bb907fc5808911b4c9745b11c58cc668, type: 2}
+    - {fileID: 11400000, guid: 7f62f9b18b587af40a0ac5efeb460b32, type: 2}
+    - {fileID: 11400000, guid: 11704cbe72ea3174ca490bf795cec1a5, type: 2}
+    - {fileID: 11400000, guid: 5056380059fe36c49ac0ac26a58149d2, type: 2}
+    - {fileID: 11400000, guid: ccf4c673f83d3934eb390b7941b323e3, type: 2}
+    - {fileID: 11400000, guid: 6ed7046657d683540905eaf63527b693, type: 2}
+    - {fileID: 11400000, guid: 89bd101059b33924f87ef43da0144dec, type: 2}
+    - {fileID: 11400000, guid: 4de649c51a04e594281d329c57b7ca7e, type: 2}
+    - {fileID: 11400000, guid: 850227f483fb78248a618d37d57a5347, type: 2}
+    - {fileID: 11400000, guid: f04558825b9cb7242bc466b3d575882d, type: 2}
+    - {fileID: 11400000, guid: 166c6e9713891c6459f32144a2b698c9, type: 2}
+    - {fileID: 11400000, guid: 939e58a7efce0744f88c22f3a308996a, type: 2}
+    - {fileID: 11400000, guid: bf01c98815c918947a98369fcbd9bb2a, type: 2}
+    - {fileID: 11400000, guid: e4e1840b3ca641a4c92c469f79aee5d7, type: 2}
+    - {fileID: 11400000, guid: 79e5a87483181164a9897b8693e92ea0, type: 2}
+    - {fileID: 11400000, guid: 94680809b452a7f4b8a4af7e32f1bea1, type: 2}
+    - {fileID: 11400000, guid: 66dd7fb623e2d994b877fcb7aca348f9, type: 2}
+    - {fileID: 11400000, guid: 055b1aa6b9d6ec343ac8b95ada609796, type: 2}
+    - {fileID: 11400000, guid: 4f850042b9a5c0a45be4a4cc1feb582d, type: 2}
+    - {fileID: 11400000, guid: ca24355d66a247b43bd44b1fdbfaed92, type: 2}
+    - {fileID: 11400000, guid: 8ff4a44b62ff4e04b8344e309ff42c0e, type: 2}
+    - {fileID: 11400000, guid: 2eedaf7968fc2af45a948030df1e1aaf, type: 2}
+    - {fileID: 11400000, guid: 68818c0ca1e8bfa40973518cda455f19, type: 2}
+    - {fileID: 11400000, guid: 0caff99e3e47b3c4ab1a0ab72c6c4287, type: 2}
+    - {fileID: 11400000, guid: 006c660f02660b841a01a00efeee999e, type: 2}
+    - {fileID: 11400000, guid: 360e05e8755887d43b25cd9b35ef025a, type: 2}
+    - {fileID: 11400000, guid: 9f36bb89e72118b4d8ad2084e2744449, type: 2}
+    - {fileID: 11400000, guid: d9098cf56c5b4ba4cbccc8308295b099, type: 2}
+    - {fileID: 11400000, guid: 7453b7b44a4c40f4a86158aacc22ee59, type: 2}
+    - {fileID: 11400000, guid: 799309f5a1c76584fa637b8bff0b0451, type: 2}
+    - {fileID: 11400000, guid: f64a85fdec5d5cc4496da8861b6b474a, type: 2}
+    - {fileID: 11400000, guid: c52dfef85b1a4be46bbdc1a42ab2045d, type: 2}
+    - {fileID: 11400000, guid: 59061bb240d57a64d89460f64a80acfd, type: 2}
+    - {fileID: 11400000, guid: e9981a95d0fe7134687180a6c045ef26, type: 2}
+    - {fileID: 11400000, guid: 7268d3579e915b742a9c45da29b18851, type: 2}
+    - {fileID: 11400000, guid: 9bd25fd78f506784ca6393c26d6fefa1, type: 2}
+    - {fileID: 11400000, guid: de397d0e56dae264494a57a234575f4a, type: 2}
+    - {fileID: 11400000, guid: b6b063110e8c512409b807caaf4ba3a8, type: 2}
+    - {fileID: 11400000, guid: 71355fc9101f1fd4aa971040182f1963, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: subjectDicts
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[SubjectType, Assembly-CSharp],[System.Collections.Generic.List`1[[Subject_SO,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SubjectType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Subject_SO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[Subject_SO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Subject_SO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Subject_SO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Subject_SO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[Subject_SO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  subjects:
+  - {fileID: 11400000, guid: 8ff4a44b62ff4e04b8344e309ff42c0e, type: 2}
+  - {fileID: 11400000, guid: 2eedaf7968fc2af45a948030df1e1aaf, type: 2}
+  - {fileID: 11400000, guid: 68818c0ca1e8bfa40973518cda455f19, type: 2}
+  - {fileID: 11400000, guid: 58b3a0ebdc9a81c45932b61d84c7d395, type: 2}
+  - {fileID: 11400000, guid: 2fe46036f6dcfd148a2fecfde7cf44a4, type: 2}
+  - {fileID: 11400000, guid: 006c660f02660b841a01a00efeee999e, type: 2}
+  - {fileID: 11400000, guid: da3d32e13ea61ad4cbffba4f67d3ccc0, type: 2}
+  - {fileID: 11400000, guid: dd67d7748f5a435478632239c8c717e3, type: 2}
+  - {fileID: 11400000, guid: 7f62f9b18b587af40a0ac5efeb460b32, type: 2}
+  - {fileID: 11400000, guid: 11704cbe72ea3174ca490bf795cec1a5, type: 2}
+  - {fileID: 11400000, guid: babdfd2d53800ca4e97c325358f2854b, type: 2}
+  - {fileID: 11400000, guid: 2f70b025f5750b94cbaa564e67a0826a, type: 2}
+  - {fileID: 11400000, guid: 7ca17d2945bfb764bb170aaa903b0905, type: 2}
+  - {fileID: 11400000, guid: 50556c2be9cbbd9469f6284363c468a5, type: 2}
+  - {fileID: 11400000, guid: 9f36bb89e72118b4d8ad2084e2744449, type: 2}
+  - {fileID: 11400000, guid: 79e5a87483181164a9897b8693e92ea0, type: 2}
+  - {fileID: 11400000, guid: 0caff99e3e47b3c4ab1a0ab72c6c4287, type: 2}
+  - {fileID: 11400000, guid: bb9d201a8fd14624dbf5d355bd205edc, type: 2}
+  - {fileID: 11400000, guid: 5056380059fe36c49ac0ac26a58149d2, type: 2}
+  - {fileID: 11400000, guid: ccf4c673f83d3934eb390b7941b323e3, type: 2}
+  - {fileID: 11400000, guid: 94680809b452a7f4b8a4af7e32f1bea1, type: 2}
+  - {fileID: 11400000, guid: 66dd7fb623e2d994b877fcb7aca348f9, type: 2}
+  - {fileID: 11400000, guid: 93e50944e9ac63140b1b54745f05f5ce, type: 2}
+  - {fileID: 11400000, guid: 97599d864853525489aa92b0a17e2c20, type: 2}
+  - {fileID: 11400000, guid: 4de649c51a04e594281d329c57b7ca7e, type: 2}
+  - {fileID: 11400000, guid: bb674dfd31e7e79498a4656bae824d44, type: 2}
+  - {fileID: 11400000, guid: 6ed7046657d683540905eaf63527b693, type: 2}
+  - {fileID: 11400000, guid: d8ed060e8efb40140bca966512c3e0f0, type: 2}
+  - {fileID: 11400000, guid: f96234d63d2044349b42d4ff7f9a8eab, type: 2}
+  - {fileID: 11400000, guid: d9098cf56c5b4ba4cbccc8308295b099, type: 2}
+  - {fileID: 11400000, guid: 7453b7b44a4c40f4a86158aacc22ee59, type: 2}
+  - {fileID: 11400000, guid: 799309f5a1c76584fa637b8bff0b0451, type: 2}
+  - {fileID: 11400000, guid: f64a85fdec5d5cc4496da8861b6b474a, type: 2}
+  - {fileID: 11400000, guid: 89bd101059b33924f87ef43da0144dec, type: 2}
+  - {fileID: 11400000, guid: 360e05e8755887d43b25cd9b35ef025a, type: 2}
+  - {fileID: 11400000, guid: 850227f483fb78248a618d37d57a5347, type: 2}
+  - {fileID: 11400000, guid: f04558825b9cb7242bc466b3d575882d, type: 2}
+  - {fileID: 11400000, guid: 04cefabb3a897a84e9da888e460bc2e0, type: 2}
+  - {fileID: 11400000, guid: 474f45c3d7dbe4941a2f6c286ddf7bde, type: 2}
+  - {fileID: 11400000, guid: 5ef8c4971116232468442cd0d60f60c4, type: 2}
+  - {fileID: 11400000, guid: 2b221860a41b89842a95f3f1561c9d08, type: 2}
+  - {fileID: 11400000, guid: bb907fc5808911b4c9745b11c58cc668, type: 2}
+  - {fileID: 11400000, guid: 055b1aa6b9d6ec343ac8b95ada609796, type: 2}
+  - {fileID: 11400000, guid: 4f850042b9a5c0a45be4a4cc1feb582d, type: 2}
+  - {fileID: 11400000, guid: ca24355d66a247b43bd44b1fdbfaed92, type: 2}
+  - {fileID: 11400000, guid: 166c6e9713891c6459f32144a2b698c9, type: 2}
+  - {fileID: 11400000, guid: 939e58a7efce0744f88c22f3a308996a, type: 2}
+  - {fileID: 11400000, guid: c1f40f73c032a7449a006fca55965dcb, type: 2}
+  - {fileID: 11400000, guid: 29a35d1be688b6c40b36823950c2506a, type: 2}
+  - {fileID: 11400000, guid: dd52995e3ea1ff543bbe7cc349db8732, type: 2}
+  - {fileID: 11400000, guid: e4e1840b3ca641a4c92c469f79aee5d7, type: 2}
+  - {fileID: 11400000, guid: bf01c98815c918947a98369fcbd9bb2a, type: 2}
+  - {fileID: 11400000, guid: b6b063110e8c512409b807caaf4ba3a8, type: 2}
+  - {fileID: 11400000, guid: 71355fc9101f1fd4aa971040182f1963, type: 2}
+  - {fileID: 11400000, guid: 9bd25fd78f506784ca6393c26d6fefa1, type: 2}
+  - {fileID: 11400000, guid: de397d0e56dae264494a57a234575f4a, type: 2}
+  - {fileID: 11400000, guid: e9981a95d0fe7134687180a6c045ef26, type: 2}
+  - {fileID: 11400000, guid: 7268d3579e915b742a9c45da29b18851, type: 2}
+  - {fileID: 11400000, guid: c52dfef85b1a4be46bbdc1a42ab2045d, type: 2}
+  - {fileID: 11400000, guid: 59061bb240d57a64d89460f64a80acfd, type: 2}

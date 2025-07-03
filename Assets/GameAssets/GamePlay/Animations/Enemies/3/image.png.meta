@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: e03d6460b303564409efe4e4075659a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -672850393763466029
+    second: enemy_tank5_0
+  - first:
+      213: -2419255411540582475
+    second: enemy_tank5_1
+  - first:
+      213: -1991232447322373274
+    second: enemy_tank5_2
+  - first:
+      213: -1626635345056809633
+    second: enemy_tank5_3
+  - first:
+      213: -2525348797454276873
+    second: enemy_tank5_4
+  - first:
+      213: -1594379033998955213
+    second: enemy_tank5_5
+  - first:
+      213: -6610978895587868079
+    second: enemy_tank5_6
+  - first:
+      213: -5107091381843156179
+    second: enemy_tank5_7
+  - first:
+      213: 5810805966155431583
+    second: enemy_tank5_8
+  - first:
+      213: -5425326160881731784
+    second: enemy_tank5_9
+  - first:
+      213: -5316972426151685535
+    second: enemy_tank5_10
+  - first:
+      213: 4443429666654288173
+    second: enemy_tank5_11
+  - first:
+      213: 1293098677440972710
+    second: enemy_tank5_12
+  - first:
+      213: -7112720109685898866
+    second: enemy_tank5_13
+  - first:
+      213: 6030665515641018075
+    second: enemy_tank5_14
+  - first:
+      213: 2913304366847027828
+    second: enemy_tank5_15
+  - first:
+      213: 7261963024770926969
+    second: enemy_tank5_16
+  - first:
+      213: 6915833993203003351
+    second: enemy_tank5_17
+  - first:
+      213: -1696528361481709875
+    second: enemy_tank5_18
+  - first:
+      213: -6378736185316136483
+    second: enemy_tank5_19
+  - first:
+      213: 4784962088700543534
+    second: enemy_tank5_20
+  - first:
+      213: 4505807603479688561
+    second: enemy_tank5_21
+  - first:
+      213: -1072287935716243515
+    second: enemy_tank5_22
+  - first:
+      213: -4076782863747838200
+    second: enemy_tank5_23
+  - first:
+      213: 6184724255856946378
+    second: enemy_tank5_24
+  - first:
+      213: 4863717664907595423
+    second: enemy_tank5_25
+  - first:
+      213: -4466032632263576720
+    second: enemy_tank5_26
+  - first:
+      213: -5740915858471210355
+    second: enemy_tank5_27
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_tank5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d43fbcb12e89a6f0800000000000000
+      internalID: -672850393763466029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf9e2e55041d6ed0800000000000000
+      internalID: -2419255411540582475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6634e10a3a8bd54e0800000000000000
+      internalID: -1991232447322373274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d3bce95c70d69e0800000000000000
+      internalID: -1626635345056809633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f627c906a824fcd0800000000000000
+      internalID: -2525348797454276873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d692947b0afd9e0800000000000000
+      internalID: -1594379033998955213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 192
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15281ee88b51144a0800000000000000
+      internalID: -6610978895587868079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23a7cd5277ff19b0800000000000000
+      internalID: -5107091381843156179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 128
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e3a6f3d3124a050800000000000000
+      internalID: 5810805966155431583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 128
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837b20ee99e55b4b0800000000000000
+      internalID: -5425326160881731784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 128
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1629eaabfb15636b0800000000000000
+      internalID: -5316972426151685535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 128
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d297c515dbb3aad30800000000000000
+      internalID: 4443429666654288173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 128
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a78560656202f110800000000000000
+      internalID: 1293098677440972710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 128
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81056bbeba8a4d90800000000000000
+      internalID: -7112720109685898866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd61bfaa55a31b350800000000000000
+      internalID: 6030665515641018075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 64
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ae284e2e22e6820800000000000000
+      internalID: 2913304366847027828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 64
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9790e7f35eca7c460800000000000000
+      internalID: 7261963024770926969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 64
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfaf6a006af9ff50800000000000000
+      internalID: 6915833993203003351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 64
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6d18e9178b478e0800000000000000
+      internalID: -1696528361481709875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 64
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd92d464c3d2a77a0800000000000000
+      internalID: -6378736185316136483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 64
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2205b8faa9976240800000000000000
+      internalID: 4784962088700543534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17539af7428d78e30800000000000000
+      internalID: 4505807603479688561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_tank5_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 73.14286
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c742bebdc77e11f0800000000000000
+      internalID: -1072287935716243515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy_tank5_0: -672850393763466029
+      enemy_tank5_1: -2419255411540582475
+      enemy_tank5_10: -5316972426151685535
+      enemy_tank5_11: 4443429666654288173
+      enemy_tank5_12: 1293098677440972710
+      enemy_tank5_13: -7112720109685898866
+      enemy_tank5_14: 6030665515641018075
+      enemy_tank5_15: 2913304366847027828
+      enemy_tank5_16: 7261963024770926969
+      enemy_tank5_17: 6915833993203003351
+      enemy_tank5_18: -1696528361481709875
+      enemy_tank5_19: -6378736185316136483
+      enemy_tank5_2: -1991232447322373274
+      enemy_tank5_20: 4784962088700543534
+      enemy_tank5_21: 4505807603479688561
+      enemy_tank5_22: -1072287935716243515
+      enemy_tank5_3: -1626635345056809633
+      enemy_tank5_4: -2525348797454276873
+      enemy_tank5_5: -1594379033998955213
+      enemy_tank5_6: -6610978895587868079
+      enemy_tank5_7: -5107091381843156179
+      enemy_tank5_8: 5810805966155431583
+      enemy_tank5_9: -5425326160881731784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

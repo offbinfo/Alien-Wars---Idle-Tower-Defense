@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03b5ecaad34cf14eb5c6bbf02a28089, type: 3}
+  m_Name: CARD_PRESET
+  m_EditorClassIdentifier: 
+  subjectType: 0
+  id: 40
+  format: 0
+  levelMax: 2
+  property: {x: 0, y: 0, z: 0}
+  priceGold: {x: 0, y: 0, z: 0}
+  time: {x: 0, y: 0, z: 0}
+  labCategory: 31
+  buyingType: 4
+  subjectTypeSupport: 1
+  priceBuy: 350000
+  timeUpgrade: 49980
+  inforLabSupport: []

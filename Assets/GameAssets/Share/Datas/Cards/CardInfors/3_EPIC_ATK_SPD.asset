@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856261c835b9d444ab43448d36ffed06, type: 3}
+  m_Name: 3_EPIC_ATK_SPD
+  m_EditorClassIdentifier: 
+  type: 2
+  id: 11
+  icon: {fileID: 21300000, guid: 55d5ebbebc2561d45b41f881bbe4081d, type: 3}
+  stats:
+  - 40
+  - 60
+  - 80
+  - 100
+  - 120
+  - 140
+  - 160
+  titleName: 
+  describe: 
+  format: 1

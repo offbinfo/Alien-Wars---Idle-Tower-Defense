@@ -1,0 +1,1 @@
+quai arena_2_01.png.png 5 29, quai arena_2_02.png.png 94 5, quai arena_2_03.png.png 224 15, quai arena_2_04.png.png 14 120, quai arena_2_05.png.png 5 29, quai arena_2_06.png.png 94 5, quai arena_2_07.png.png 224 15, quai arena_2_08.png.png 14 120, quai arena_2_09.png.png 5 29, quai arena_2_10.png.png 94 5.

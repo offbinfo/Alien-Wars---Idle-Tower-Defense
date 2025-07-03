@@ -1,0 +1,987 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4088a074b33a6034d8a26c4e4269d4aa, type: 3}
+  m_Name: RelicManagerSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: a96e73459f2a80447924d4830fb8430d, type: 3}
+    - {fileID: 21300000, guid: 91d25e85bf339494f92a9cc5b9ede03b, type: 3}
+    - {fileID: 21300000, guid: 5a22a8b8ad990004abc6e56246622b53, type: 3}
+    - {fileID: 21300000, guid: fc014ba205e989843b693eaa2a65de02, type: 3}
+    - {fileID: 21300000, guid: df00d302f8849bb46b1f58f62d16fcfa, type: 3}
+    - {fileID: 21300000, guid: 9c8bb589bd4b1bb48809c7831818d79f, type: 3}
+    - {fileID: 21300000, guid: bc7093ff8f37aab489ad301158d66304, type: 3}
+    - {fileID: 21300000, guid: 6483e9f3d0ccffd4e9bc134504b1cea1, type: 3}
+    - {fileID: 21300000, guid: 2aa90af0e2cff3c40be1793c17edaae4, type: 3}
+    - {fileID: 21300000, guid: e3719c71767a11043981a035a8844309, type: 3}
+    - {fileID: 21300000, guid: 54708da0b3d6f4b42bb6f7c4f0ab9288, type: 3}
+    - {fileID: 21300000, guid: 1bb926e542c48df4abdeae005b85d42b, type: 3}
+    - {fileID: 21300000, guid: 1f74ad75fc51b3f46bf5802291a08e12, type: 3}
+    - {fileID: 21300000, guid: 2a05d5e2b19fd2b47a8df11a963ce2a0, type: 3}
+    - {fileID: 21300000, guid: 8c24702351df9fd4fa6065220df94e33, type: 3}
+    - {fileID: 21300000, guid: eaff8dfa4d150604ea77d55fd5b1c7e4, type: 3}
+    - {fileID: 21300000, guid: fcea734ef087ca0438acb62345b60cbe, type: 3}
+    - {fileID: 21300000, guid: 63b8725365f48a841b742fff07f77330, type: 3}
+    - {fileID: 21300000, guid: 3266b9a852c6d38459ec2ce61e35ecf7, type: 3}
+    - {fileID: 21300000, guid: 191b719ac9fba4c48bc224575c0d6035, type: 3}
+    - {fileID: 21300000, guid: 928fe8a65c898c64abbeb3a47f9fe48c, type: 3}
+    - {fileID: 21300000, guid: d2596d0b9544b954bba870b4053691b9, type: 3}
+    - {fileID: 21300000, guid: 4b835f78ef334514e9beb1bd53fc922a, type: 3}
+    - {fileID: 21300000, guid: f429a2d8f18f7ea46a41e20ed5257412, type: 3}
+    - {fileID: 21300000, guid: 553bd3b6753956849b78eee904cc8c70, type: 3}
+    - {fileID: 21300000, guid: 517aee6067eabbc43be3c8e04c920eba, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: relicDicts
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[TypeRelic, Assembly-CSharp],[RelicData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[TypeRelic, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 26
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 0
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 0
+    - Name: desc
+      Entry: 1
+      Data: Increase coins earned by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 1
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 1
+    - Name: desc
+      Entry: 1
+      Data: Increase tower damage by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 2
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 2
+    - Name: desc
+      Entry: 1
+      Data: Increase defense resistance by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 5|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 3
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 3
+    - Name: desc
+      Entry: 1
+      Data: Increase tower damage by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 6|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 4
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 4
+    - Name: desc
+      Entry: 1
+      Data: Increase tower health by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 7|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 5
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 5
+    - Name: desc
+      Entry: 1
+      Data: Increase coins earned by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 8|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 6
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 1.5
+    - Name: icon
+      Entry: 10
+      Data: 6
+    - Name: desc
+      Entry: 1
+      Data: Increase lab speed by 1.5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 9|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 7
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 7
+    - Name: desc
+      Entry: 1
+      Data: Increase crit factor by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 10|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 8
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 8
+    - Name: desc
+      Entry: 1
+      Data: Increase defense resistance by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 11|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 10
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 9
+    - Name: desc
+      Entry: 1
+      Data: Increase tower damage by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 12|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 11
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 10
+    - Name: desc
+      Entry: 1
+      Data: Increase tower health by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: 13|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 12
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 11
+    - Name: desc
+      Entry: 1
+      Data: Increase lab speed by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: 14|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 14
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 12
+    - Name: desc
+      Entry: 1
+      Data: Increase crit factor by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: 15|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 15
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 13
+    - Name: desc
+      Entry: 1
+      Data: Increase Coins by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 16|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 16
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 0
+    - Name: numberPercent
+      Entry: 4
+      Data: 2
+    - Name: icon
+      Entry: 10
+      Data: 14
+    - Name: desc
+      Entry: 1
+      Data: Increase Health by 2%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: 17|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 17
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 15
+    - Name: desc
+      Entry: 1
+      Data: Increase critical factor by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: 18|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 18
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 16
+    - Name: desc
+      Entry: 1
+      Data: Increase tower health by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: 19|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 19
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 4
+    - Name: icon
+      Entry: 10
+      Data: 17
+    - Name: desc
+      Entry: 1
+      Data: Increase lab speed by 4%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: 20|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 20
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 18
+    - Name: desc
+      Entry: 1
+      Data: Increase critical factor by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 21
+    - Name: $v
+      Entry: 7
+      Data: 21|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 21
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 19
+    - Name: desc
+      Entry: 1
+      Data: Increase defense resistance by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 23
+    - Name: $v
+      Entry: 7
+      Data: 22|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 23
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 20
+    - Name: desc
+      Entry: 1
+      Data: Increase damage by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 24
+    - Name: $v
+      Entry: 7
+      Data: 23|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 24
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 21
+    - Name: desc
+      Entry: 1
+      Data: Increase health by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: 24|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 25
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 22
+    - Name: desc
+      Entry: 1
+      Data: Increase coins by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: 25|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 26
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 4
+    - Name: icon
+      Entry: 10
+      Data: 23
+    - Name: desc
+      Entry: 1
+      Data: Increase lab speed by 4%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: 26|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 27
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 24
+    - Name: desc
+      Entry: 1
+      Data: Increase critical factor by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: 27|RelicData, Assembly-CSharp
+    - Name: typeRelic
+      Entry: 3
+      Data: 29
+    - Name: typeRarityRelic
+      Entry: 3
+      Data: 1
+    - Name: numberPercent
+      Entry: 4
+      Data: 5
+    - Name: icon
+      Entry: 10
+      Data: 25
+    - Name: desc
+      Entry: 1
+      Data: Increase tower health by 5%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  relicRares:
+  - typeRelic: 0
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: a96e73459f2a80447924d4830fb8430d, type: 3}
+    desc: Increase coins earned by 2%
+  - typeRelic: 1
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 91d25e85bf339494f92a9cc5b9ede03b, type: 3}
+    desc: Increase tower damage by 2%
+  - typeRelic: 2
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 5a22a8b8ad990004abc6e56246622b53, type: 3}
+    desc: Increase defense resistance by 2%
+  - typeRelic: 3
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: fc014ba205e989843b693eaa2a65de02, type: 3}
+    desc: Increase tower damage by 2%
+  - typeRelic: 4
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: df00d302f8849bb46b1f58f62d16fcfa, type: 3}
+    desc: Increase tower health by 2%
+  - typeRelic: 5
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 9c8bb589bd4b1bb48809c7831818d79f, type: 3}
+    desc: Increase coins earned by 2%
+  - typeRelic: 6
+    typeRarityRelic: 0
+    numberPercent: 1.5
+    icon: {fileID: 21300000, guid: bc7093ff8f37aab489ad301158d66304, type: 3}
+    desc: Increase lab speed by 1.5%
+  - typeRelic: 7
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 6483e9f3d0ccffd4e9bc134504b1cea1, type: 3}
+    desc: Increase crit factor by 2%
+  - typeRelic: 8
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 2aa90af0e2cff3c40be1793c17edaae4, type: 3}
+    desc: Increase defense resistance by 2%
+  - typeRelic: 10
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: e3719c71767a11043981a035a8844309, type: 3}
+    desc: Increase tower damage by 2%
+  - typeRelic: 11
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 54708da0b3d6f4b42bb6f7c4f0ab9288, type: 3}
+    desc: Increase tower health by 2%
+  - typeRelic: 12
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 1bb926e542c48df4abdeae005b85d42b, type: 3}
+    desc: Increase lab speed by 2%
+  - typeRelic: 14
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 1f74ad75fc51b3f46bf5802291a08e12, type: 3}
+    desc: Increase crit factor by 2%
+  - typeRelic: 15
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 2a05d5e2b19fd2b47a8df11a963ce2a0, type: 3}
+    desc: Increase Coins by 2%
+  - typeRelic: 16
+    typeRarityRelic: 0
+    numberPercent: 2
+    icon: {fileID: 21300000, guid: 8c24702351df9fd4fa6065220df94e33, type: 3}
+    desc: Increase Health by 2%
+  relicEpics:
+  - typeRelic: 17
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: eaff8dfa4d150604ea77d55fd5b1c7e4, type: 3}
+    desc: Increase critical factor by 5%
+  - typeRelic: 18
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: fcea734ef087ca0438acb62345b60cbe, type: 3}
+    desc: Increase tower health by 5%
+  - typeRelic: 19
+    typeRarityRelic: 1
+    numberPercent: 4
+    icon: {fileID: 21300000, guid: 63b8725365f48a841b742fff07f77330, type: 3}
+    desc: Increase lab speed by 4%
+  - typeRelic: 20
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: 3266b9a852c6d38459ec2ce61e35ecf7, type: 3}
+    desc: Increase critical factor by 5%
+  - typeRelic: 21
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: 191b719ac9fba4c48bc224575c0d6035, type: 3}
+    desc: Increase defense resistance by 5%
+  - typeRelic: 23
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: 928fe8a65c898c64abbeb3a47f9fe48c, type: 3}
+    desc: Increase damage by 5%
+  - typeRelic: 24
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: d2596d0b9544b954bba870b4053691b9, type: 3}
+    desc: Increase health by 5%
+  - typeRelic: 25
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: 4b835f78ef334514e9beb1bd53fc922a, type: 3}
+    desc: Increase coins by 5%
+  - typeRelic: 26
+    typeRarityRelic: 1
+    numberPercent: 4
+    icon: {fileID: 21300000, guid: f429a2d8f18f7ea46a41e20ed5257412, type: 3}
+    desc: Increase lab speed by 4%
+  - typeRelic: 27
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: 553bd3b6753956849b78eee904cc8c70, type: 3}
+    desc: Increase critical factor by 5%
+  - typeRelic: 29
+    typeRarityRelic: 1
+    numberPercent: 5
+    icon: {fileID: 21300000, guid: 517aee6067eabbc43be3c8e04c920eba, type: 3}
+    desc: Increase tower health by 5%

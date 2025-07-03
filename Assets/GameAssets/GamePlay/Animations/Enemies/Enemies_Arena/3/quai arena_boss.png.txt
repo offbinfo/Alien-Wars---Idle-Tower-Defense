@@ -1,0 +1,1 @@
+quai arena_boss_01.png.png 24 141, quai arena_boss_02.png.png 101 31, quai arena_boss_03.png.png 259 31, quai arena_boss_04.png.png 293 218, quai arena_boss_05.png.png 24 141, quai arena_boss_06.png.png 101 31.

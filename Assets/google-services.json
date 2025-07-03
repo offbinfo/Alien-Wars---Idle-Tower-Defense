@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300476641736",
+    "firebase_url": "https://idle-defense-legend-default-rtdb.firebaseio.com",
+    "project_id": "idle-defense-legend",
+    "storage_bucket": "idle-defense-legend.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300476641736:android:df037ae4bc934edeae90fd",
+        "android_client_info": {
+          "package_name": "com.Gcenter.idle.DefenseLegend.towerdefense.td.strategy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300476641736-ja0ja0n1vtdp0dicat9d0d8m4gck608i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_o2JJrnEd4XQAhUNqPYFjsmZjZzC7_X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300476641736-ja0ja0n1vtdp0dicat9d0d8m4gck608i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

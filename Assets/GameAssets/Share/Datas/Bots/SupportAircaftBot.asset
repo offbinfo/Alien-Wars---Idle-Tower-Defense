@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4162643391359db40831275b84f5c569, type: 3}
+  m_Name: SupportAircaftBot
+  m_EditorClassIdentifier: 
+  typeBot: 3
+  coolDown: {x: 0, y: -3, z: 120}
+  levelMaxCoolDown: 15
+  range: {x: 0, y: 2, z: 25}
+  levelMaxRange: 15
+  duration: {x: 0, y: 0.5, z: 20}
+  levelMaxDuration: 20
+  costBadges: {x: 0, y: 40, z: 60}
+  iconUW: {fileID: 0}
+  bonus: {x: 0, y: 0.4, z: 3.5}
+  levelMaxBonus: 20

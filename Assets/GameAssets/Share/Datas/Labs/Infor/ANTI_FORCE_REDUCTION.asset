@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03b5ecaad34cf14eb5c6bbf02a28089, type: 3}
+  m_Name: ANTI_FORCE_REDUCTION
+  m_EditorClassIdentifier: 
+  subjectType: 4
+  id: 27
+  format: 1
+  levelMax: 30
+  property: {x: 0, y: 0.5, z: 10}
+  priceGold: {x: 88000, y: -229000, z: 391000}
+  time: {x: 300, y: 11220, z: 60420}
+  labCategory: 59
+  buyingType: 4
+  subjectTypeSupport: 0
+  priceBuy: 0
+  timeUpgrade: 0
+  inforLabSupport: []

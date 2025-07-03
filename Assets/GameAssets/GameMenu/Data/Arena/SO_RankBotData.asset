@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a6898bed97a22440b3f9a1cac3630ef, type: 3}
+  m_Name: SO_RankBotData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  botList:
+  - nameType: 17
+    indexRank: 1
+    wave: 238
+    difficulty: 1
+  - nameType: 7
+    indexRank: 2
+    wave: 229
+    difficulty: 0
+  - nameType: 70
+    indexRank: 3
+    wave: 220
+    difficulty: 2
+  - nameType: 11
+    indexRank: 4
+    wave: 214
+    difficulty: 1
+  - nameType: 6
+    indexRank: 5
+    wave: 205
+    difficulty: 1
+  - nameType: 12
+    indexRank: 6
+    wave: 197
+    difficulty: 0
+  - nameType: 11
+    indexRank: 7
+    wave: 189
+    difficulty: 1
+  - nameType: 20
+    indexRank: 8
+    wave: 180
+    difficulty: 0
+  - nameType: 105
+    indexRank: 9
+    wave: 172
+    difficulty: 0
+  - nameType: 80
+    indexRank: 10
+    wave: 163
+    difficulty: 0
+  - nameType: 83
+    indexRank: 11
+    wave: 155
+    difficulty: 2
+  - nameType: 74
+    indexRank: 12
+    wave: 150
+    difficulty: 1
+  - nameType: 11
+    indexRank: 13
+    wave: 139
+    difficulty: 0
+  - nameType: 12
+    indexRank: 14
+    wave: 134
+    difficulty: 0
+  - nameType: 81
+    indexRank: 15
+    wave: 124
+    difficulty: 1
+  - nameType: 22
+    indexRank: 16
+    wave: 115
+    difficulty: 2
+  - nameType: 53
+    indexRank: 17
+    wave: 109
+    difficulty: 1
+  - nameType: 85
+    indexRank: 18
+    wave: 102
+    difficulty: 0
+  - nameType: 46
+    indexRank: 19
+    wave: 93
+    difficulty: 1
+  - nameType: 31
+    indexRank: 20
+    wave: 85
+    difficulty: 2
+  - nameType: 106
+    indexRank: 21
+    wave: 78
+    difficulty: 1
+  - nameType: 66
+    indexRank: 22
+    wave: 67
+    difficulty: 0
+  - nameType: 53
+    indexRank: 23
+    wave: 60
+    difficulty: 1
+  - nameType: 37
+    indexRank: 24
+    wave: 51
+    difficulty: 1
+  - nameType: 22
+    indexRank: 25
+    wave: 46
+    difficulty: 0
+  - nameType: 5
+    indexRank: 26
+    wave: 35
+    difficulty: 2
+  - nameType: 53
+    indexRank: 27
+    wave: 30
+    difficulty: 2
+  - nameType: 43
+    indexRank: 28
+    wave: 21
+    difficulty: 1
+  - nameType: 30
+    indexRank: 29
+    wave: 14
+    difficulty: 0
+  - nameType: 49
+    indexRank: 30
+    wave: 1
+    difficulty: 1
+  rank: 30
+  wave: 2

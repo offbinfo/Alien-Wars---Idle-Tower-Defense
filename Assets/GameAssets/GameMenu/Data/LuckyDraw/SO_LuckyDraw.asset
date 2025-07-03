@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59edab3b9ecec0d409352d49aacea3aa, type: 3}
+  m_Name: SO_LuckyDraw
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: luckyDraws
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[LuckyDraw, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 7
+      Data: 1|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 0
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 500
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 14.85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 0
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 350
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 22.28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 0
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 250
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 21.29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 0
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 100
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 47.03
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 0
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 50
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 70.79
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 0
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 20
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 1
+    - Name: gem
+      Entry: 3
+      Data: 3
+    - Name: gold
+      Entry: 3
+      Data: 3
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 65.35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 1
+    - Name: gem
+      Entry: 3
+      Data: 5
+    - Name: gold
+      Entry: 3
+      Data: 0
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 46.53
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 1
+    - Name: gem
+      Entry: 3
+      Data: 10
+    - Name: gold
+      Entry: 3
+      Data: 0
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 31.19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 1
+    - Name: gem
+      Entry: 3
+      Data: 20
+    - Name: gold
+      Entry: 3
+      Data: 0
+    - Name: powerStone
+      Entry: 3
+      Data: 0
+    - Name: rate
+      Entry: 4
+      Data: 22.28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 2
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 0
+    - Name: powerStone
+      Entry: 3
+      Data: 5
+    - Name: rate
+      Entry: 4
+      Data: 31.19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|LuckyDraw, Assembly-CSharp
+    - Name: currencyType
+      Entry: 3
+      Data: 2
+    - Name: gem
+      Entry: 3
+      Data: 0
+    - Name: gold
+      Entry: 3
+      Data: 0
+    - Name: powerStone
+      Entry: 3
+      Data: 10
+    - Name: rate
+      Entry: 4
+      Data: 22.28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: goldBonusWorld
+      Entry: 7
+      Data: 13|System.Collections.Generic.Dictionary`2[[WorldType, Assembly-CSharp],[System.Single,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 14|System.Collections.Generic.EnumEqualityComparer`1[[WorldType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 4
+      Data: 3.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 4
+      Data: 3.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 4
+      Data: 3.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  iconGem: {fileID: 21300000, guid: 30d053524436d6f46a2e3fc5adb5bb06, type: 3}
+  iconGold: {fileID: 21300000, guid: 3998537be37524d7184f92da33de08da, type: 3}
+  iconPowerStone: {fileID: 21300000, guid: 0122b8e45848a874db7e1b1788cc10ad, type: 3}

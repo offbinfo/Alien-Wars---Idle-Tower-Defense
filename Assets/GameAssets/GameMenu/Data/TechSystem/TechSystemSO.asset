@@ -1,0 +1,925 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883c9c9ab72109c49aca02cf75e8c73b, type: 3}
+  m_Name: TechSystemSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: techDict
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[TypeTech, Assembly-CSharp],[TechData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[TypeTech, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 16
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 2|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 4
+    - Name: desc
+      Entry: 1
+      Data: Bounce Shot's range is increased by 3% of the Tower's total range. Each
+        bounce increases the projectile's damage by X%
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 4
+      Data: 60
+    - Name: 
+      Entry: 4
+      Data: 80
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 4|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 5
+    - Name: desc
+      Entry: 1
+      Data: When you stun, your next X shots are guaranteed stun
+    - Name: typeFormat
+      Entry: 3
+      Data: 1
+    - Name: values
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 6|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 6
+    - Name: desc
+      Entry: 1
+      Data: Chance of X% to mark an enemy for death when it spawns, causing the first
+        hit to destroy it
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 4
+      Data: 11
+    - Name: 
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 8|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 7
+    - Name: desc
+      Entry: 1
+      Data: X% chance Deadhit to get 100% for 5 seconds
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 4
+      Data: 13
+    - Name: 
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 10|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 0
+    - Name: desc
+      Entry: 1
+      Data: Enemies take X damage for 7s after they are hit by a Impulse Wave
+    - Name: typeFormat
+      Entry: 3
+      Data: 3
+    - Name: values
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 12|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 1
+    - Name: desc
+      Entry: 1
+      Data: If a Satellite doesn't kill the enemy, it applies a stacking debuff reducing
+        its damage and speed by X per hit (max 50%)
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1.5
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 14|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 2
+    - Name: desc
+      Entry: 1
+      Data: Bombs have a X% chance of spawning as a LandMine (max 20) that deals
+        more damage. These mines spawn over the tower range
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 16|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 3
+    - Name: desc
+      Entry: 1
+      Data: HP Regen can heal up to X% of Lifebox Max HP
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 4
+      Data: 75
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 18|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 8
+    - Name: desc
+      Entry: 1
+      Data: Temporarily get X extra Coins / Kill Bonus for each free upgrade you
+        got on the current wave. Free Upgrades can not increase Tower Range
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 20|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 9
+    - Name: desc
+      Entry: 1
+      Data: Collecting a Lifebox reduces the cooldown of all Ultimate Weapons by
+        X seconds
+    - Name: typeFormat
+      Entry: 3
+      Data: 1
+    - Name: values
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -10
+    - Name: 
+      Entry: 4
+      Data: -13
+    - Name: 
+      Entry: 4
+      Data: -17
+    - Name: 
+      Entry: 4
+      Data: -20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 22|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 10
+    - Name: desc
+      Entry: 1
+      Data: Increases the range of each bot by X meters. Enemies hit by the Flame
+        bot receive double damage
+    - Name: typeFormat
+      Entry: 3
+      Data: 1
+    - Name: values
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 4
+      Data: 11
+    - Name: 
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 24|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 11
+    - Name: desc
+      Entry: 1
+      Data: Each time a projectile hits an enemy, there is a X% chance that it will
+        reduce the enemy's Health and Attack Level by 1
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1.5
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: 26|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 12
+    - Name: desc
+      Entry: 1
+      Data: Shockwave, Golden Sanctuary, and Void Nexus will always activate at the
+        same time, but the cooldown will be the average of those plus X
+    - Name: typeFormat
+      Entry: 3
+      Data: 1
+    - Name: values
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: -10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: 28|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 13
+    - Name: desc
+      Entry: 1
+      Data: Thunderbolt has 60% chance of hitting the initial target. Shock chance
+        and multiplier is doubled. If a shock is applied again to the same enemy,
+        the shock multiplier will add up to a max stack of X
+    - Name: typeFormat
+      Entry: 3
+      Data: 1
+    - Name: values
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: 30|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 14
+    - Name: desc
+      Entry: 1
+      Data: X% chance of poisoned enemies to miss attacks. Boss chance is halved
+    - Name: typeFormat
+      Entry: 3
+      Data: 0
+    - Name: values
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 4
+      Data: 25
+    - Name: 
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: 32|TechData, Assembly-CSharp
+    - Name: typeTech
+      Entry: 3
+      Data: 15
+    - Name: desc
+      Entry: 1
+      Data: Highlight will rotate to focus a boss. This effect can only happen again
+        after X bosses
+    - Name: typeFormat
+      Entry: 3
+      Data: 1
+    - Name: values
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

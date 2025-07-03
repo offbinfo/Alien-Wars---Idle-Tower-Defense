@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03b5ecaad34cf14eb5c6bbf02a28089, type: 3}
+  m_Name: VOID_NEXUS_GOLD_BONUS
+  m_EditorClassIdentifier: 
+  subjectType: 4
+  id: 28
+  format: 0
+  levelMax: 20
+  property: {x: 0, y: 0.5, z: 0}
+  priceGold: {x: 156757, y: 935134, z: 18908108}
+  time: {x: -1500, y: 38220, z: 103620}
+  labCategory: 52
+  buyingType: 4
+  subjectTypeSupport: 0
+  priceBuy: 0
+  timeUpgrade: 0
+  inforLabSupport: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d82580ea65a11147aa9fcfb9caad97a, type: 3}
+  m_Name: 1_NUMBER_SATELLITE
+  m_EditorClassIdentifier: 
+  upgraderGroupID: 3
+  upgraderID: 34
+  format: 0
+  TextID: Number Satellite
+  maxLevel: 15
+  coefficient: 1.5
+  property: {x: 0, y: 1, z: 0}
+  price_base: {x: 75, y: -175, z: 200}
+  price_ingame: {x: 45, y: 945, z: 10}
+  upgraderCategory: 18

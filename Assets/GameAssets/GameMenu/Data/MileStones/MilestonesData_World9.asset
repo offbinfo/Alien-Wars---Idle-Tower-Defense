@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d5aa172ba6c674398727ba4deca656, type: 3}
+  m_Name: MilestonesData_World9
+  m_EditorClassIdentifier: 
+  typeWorld: 8
+  milestonesReward:
+  - wave: 10
+    standard:
+      amount: 12000000
+      typeMilestone: 1
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 15000000
+      typeMilestone: 1
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 20
+    standard:
+      amount: 35
+      typeMilestone: 2
+      upgraderCategory: 8
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 35
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 30
+    standard:
+      amount: 40
+      typeMilestone: 2
+      upgraderCategory: 9
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 45
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 40
+    standard:
+      amount: 5
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 26
+      uW_ID: 0
+    premium:
+      amount: 10
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 50
+    standard:
+      amount: 45
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 50
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 60
+    standard:
+      amount: 15000000
+      typeMilestone: 1
+      upgraderCategory: 14
+      labCategory: 56
+      uW_ID: 0
+    premium:
+      amount: 15000000
+      typeMilestone: 1
+      upgraderCategory: 0
+      labCategory: 14
+      uW_ID: 0
+  - wave: 70
+    standard:
+      amount: 40
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 50
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 80
+    standard:
+      amount: 70
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 28
+      uW_ID: 0
+    premium:
+      amount: 80
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 90
+    standard:
+      amount: 5
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 10
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 100
+    standard:
+      amount: 0
+      typeMilestone: 25
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 130
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 21
+      uW_ID: 0
+  - wave: 150
+    standard:
+      amount: 50
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 50
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 200
+    standard:
+      amount: 5
+      typeMilestone: 0
+      upgraderCategory: 17
+      labCategory: 57
+      uW_ID: 0
+    premium:
+      amount: 10
+      typeMilestone: 0
+      upgraderCategory: 8
+      labCategory: 22
+      uW_ID: 0
+  - wave: 250
+    standard:
+      amount: 55
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 60
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 300
+    standard:
+      amount: 10
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 59
+      uW_ID: 0
+    premium:
+      amount: 15
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 400
+    standard:
+      amount: 25000000
+      typeMilestone: 1
+      upgraderCategory: 10
+      labCategory: 58
+      uW_ID: 0
+    premium:
+      amount: 80
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 500
+    standard:
+      amount: 10
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 15
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 750
+    standard:
+      amount: 75
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 90
+      typeMilestone: 2
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 1000
+    standard:
+      amount: 10
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 15
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+  - wave: 1500
+    standard:
+      amount: 10
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0
+    premium:
+      amount: 20
+      typeMilestone: 0
+      upgraderCategory: 0
+      labCategory: 0
+      uW_ID: 0

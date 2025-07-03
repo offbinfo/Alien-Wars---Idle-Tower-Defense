@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03b5ecaad34cf14eb5c6bbf02a28089, type: 3}
+  m_Name: INTEREST
+  m_EditorClassIdentifier: 
+  subjectType: 3
+  id: 45
+  format: 0
+  levelMax: 99
+  property: {x: 0, y: 0.02, z: 1}
+  priceGold: {x: 42.5, y: -84.5, z: 92}
+  time: {x: 210, y: -150, z: 0}
+  labCategory: 38
+  buyingType: 4
+  subjectTypeSupport: 0
+  priceBuy: 0
+  timeUpgrade: 0
+  inforLabSupport: []

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970c878c0a7c8304d8423c38844e72de, type: 3}
+  m_Name: avatarSource
+  m_EditorClassIdentifier: 
+  dataAvatars:
+  - typeAvatar: 0
+    sprite: {fileID: 21300000, guid: 9db8412057f79284b886162784c69ce4, type: 3}
+    buyingType: 8
+  - typeAvatar: 1
+    sprite: {fileID: 21300000, guid: a89d21b74a4fc2440b6459f6ade772d6, type: 3}
+    buyingType: 4
+  - typeAvatar: 2
+    sprite: {fileID: 21300000, guid: a79ac3a3a89d088418f9eba2e8bc8447, type: 3}
+    buyingType: 4
+  - typeAvatar: 3
+    sprite: {fileID: 21300000, guid: 9df532bc262db534aad922e7c28440f5, type: 3}
+    buyingType: 4
+  - typeAvatar: 4
+    sprite: {fileID: 21300000, guid: 682dd4c0408640a4e8f0092ea2b2e018, type: 3}
+    buyingType: 4

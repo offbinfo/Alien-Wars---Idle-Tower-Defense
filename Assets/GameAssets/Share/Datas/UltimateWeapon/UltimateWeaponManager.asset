@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddffdd84932116f40aaa0b7c5ab1ff9e, type: 3}
+  m_Name: UltimateWeaponManager
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: ed21c705552b22945b4357eda78fc799, type: 2}
+    - {fileID: 11400000, guid: 81e1cbba61b5bcd4ba4ac56f73408d0e, type: 2}
+    - {fileID: 11400000, guid: e2f697db93e5e9846b0809b32ae18d11, type: 2}
+    - {fileID: 11400000, guid: 22e457a198fd2404792382a004b6c908, type: 2}
+    - {fileID: 11400000, guid: c8ddf9852cd02714b8dd113469b2dfb8, type: 2}
+    - {fileID: 11400000, guid: 3499225666d1cde4fa614ea27a3f20b7, type: 2}
+    - {fileID: 11400000, guid: be4c970fbb3b38747bf064dd0e3db23b, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: dicsData
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[UW_ID, Assembly-CSharp],[SO_UW_Base,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[UW_ID, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  ultimateWeapons:
+  - {fileID: 11400000, guid: ed21c705552b22945b4357eda78fc799, type: 2}
+  - {fileID: 11400000, guid: 81e1cbba61b5bcd4ba4ac56f73408d0e, type: 2}
+  - {fileID: 11400000, guid: e2f697db93e5e9846b0809b32ae18d11, type: 2}
+  - {fileID: 11400000, guid: 3499225666d1cde4fa614ea27a3f20b7, type: 2}
+  - {fileID: 11400000, guid: be4c970fbb3b38747bf064dd0e3db23b, type: 2}
+  - {fileID: 11400000, guid: 22e457a198fd2404792382a004b6c908, type: 2}
+  - {fileID: 11400000, guid: c8ddf9852cd02714b8dd113469b2dfb8, type: 2}
+  price: 0500000032000000960000002c01000020030000e2040000d606000060090000b80b0000

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc33dd96e4518f24cab84bf879ab66c9, type: 3}
+  m_Name: Boss_3
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  regenHPPerSecond: 0
+  damage_resistant: 0
+  dodge_chance: 0
+  damage: 30
+  attackRange: 1.3
+  attackSpeed: 1
+  _spdMove: 0.35
+  hpScale_formula: {x: 0.05, y: -0.05, z: 1}
+  dmgScale_formula: {x: 0.0625, y: -0.0625, z: 1}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b06698d63c1b547b46ad3fe825165e, type: 3}
+  m_Name: UiConfig
+  m_EditorClassIdentifier: 
+  panelInstances:
+  - {fileID: 6895792422903848355, guid: b312e8d456854414ebf572055b55af30, type: 3}
+  - {fileID: 4612938284927080524, guid: f39279135ad70c147bcfecd1372cc113, type: 3}
+  - {fileID: 3415043291499936330, guid: 4f6cfc11b70803f4f987f6c3a825cfe6, type: 3}
+  prefabScreen: {fileID: 4707995532972556235, guid: 4f84377402e4de648897f81ce57551ef, type: 3}
+  prefabPopup: {fileID: 1150493129258228202, guid: fa98ce04f341e2c4cbd4fb0d5bdc8464, type: 3}
+  prefabButton: {fileID: 0}
+  pathGamePlay: Assets/GameAssets/GameMenu/Prefabs/UI/Screen And Popup/
+  demoPathGamePlay: Assets/GameAssets/GameMenu/Prefabs/UI/Screen And Popup/

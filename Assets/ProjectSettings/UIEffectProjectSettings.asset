@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &-1099031146529065836
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderVariants
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 96246b1ead49a4c5a996fd477bc5a117, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: COLOR_ADDITIVE
+        passType: 0
+      - keywords: COLOR_ADDITIVE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: COLOR_MULTIPLY
+        passType: 0
+      - keywords: COLOR_MULTIPLY SAMPLING_PIXELATION
+        passType: 0
+      - keywords: COLOR_MULTIPLY UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: COLOR_MULTIPLY_LUMINANCE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: COLOR_SUBTRACTIVE EDGE_COLOR_REPLACE EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_ADDITIVE EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_ADDITIVE EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_CONTRAST EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_CONTRAST EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_HSV_MODIFIER EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_HSV_MODIFIER EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY_ADDITIVE EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY_ADDITIVE EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY_ADDITIVE EDGE_SHINY TRANSITION_COLOR_MULTIPLY_ADDITIVE
+          TRANSITION_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY_LUMINANCE EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY_LUMINANCE EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_MULTIPLY_LUMINANCE EDGE_SHINY TRANSITION_COLOR_MULTIPLY_ADDITIVE
+          TRANSITION_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_PLAIN UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY SAMPLING_BLUR_DETAIL
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY SAMPLING_BLUR_MEDIUM
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY SAMPLING_PIXELATION
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY SHADOW_COLOR_REPLACE
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY TONE_NEGATIVE
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY TONE_POSTERIZE
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY TONE_SEPIA
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY TRANSITION_COLOR_MULTIPLY_ADDITIVE
+          TRANSITION_SHINY
+        passType: 0
+      - keywords: EDGE_COLOR_REPLACE EDGE_SHINY TRANSITION_FADE
+        passType: 0
+      - keywords: EDGE_COLOR_SUBTRACTIVE EDGE_PLAIN
+        passType: 0
+      - keywords: EDGE_COLOR_SUBTRACTIVE EDGE_SHINY
+        passType: 0
+      - keywords: SAMPLING_BLUR_DETAIL
+        passType: 0
+      - keywords: SAMPLING_BLUR_DETAIL UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: SAMPLING_BLUR_FAST
+        passType: 0
+      - keywords: SAMPLING_BLUR_FAST UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: SAMPLING_BLUR_MEDIUM
+        passType: 0
+      - keywords: SAMPLING_EDGE_ALPHA UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: SAMPLING_EDGE_LUMINANCE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: SAMPLING_PIXELATION
+        passType: 0
+      - keywords: SAMPLING_PIXELATION UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: SHADOW_COLOR_MULTIPLY
+        passType: 0
+      - keywords: SHADOW_COLOR_REPLACE
+        passType: 0
+      - keywords: TARGET_HUE
+        passType: 0
+      - keywords: TONE_GRAYSCALE
+        passType: 0
+      - keywords: TONE_GRAYSCALE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TONE_NEGATIVE
+        passType: 0
+      - keywords: TONE_NEGATIVE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TONE_POSTERIZE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TONE_SEPIA
+        passType: 0
+      - keywords: TONE_SEPIA UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_BURN TRANSITION_COLOR_ADDITIVE
+        passType: 0
+      - keywords: TRANSITION_BURN TRANSITION_COLOR_MULTIPLY_ADDITIVE
+        passType: 0
+      - keywords: TRANSITION_BURN TRANSITION_COLOR_MULTIPLY_ADDITIVE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_BURN TRANSITION_COLOR_REPLACE
+        passType: 0
+      - keywords: TRANSITION_COLOR_ADDITIVE TRANSITION_DISSOLVE
+        passType: 0
+      - keywords: TRANSITION_COLOR_ADDITIVE TRANSITION_MASK
+        passType: 0
+      - keywords: TRANSITION_COLOR_ADDITIVE TRANSITION_MELT
+        passType: 0
+      - keywords: TRANSITION_COLOR_ADDITIVE TRANSITION_PATTERN
+        passType: 0
+      - keywords: TRANSITION_COLOR_ADDITIVE TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_COLOR_HSV_MODIFIER TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY TRANSITION_PATTERN
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY TRANSITION_PATTERN UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_DISSOLVE
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_DISSOLVE UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_MASK
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_MASK UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_MELT
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_MELT UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_PATTERN
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_PATTERN UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_ADDITIVE TRANSITION_SHINY UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_COLOR_MULTIPLY_LUMINANCE TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_COLOR_REPLACE TRANSITION_MASK
+        passType: 0
+      - keywords: TRANSITION_COLOR_REPLACE TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_COLOR_SUBTRACTIVE TRANSITION_SHINY
+        passType: 0
+      - keywords: TRANSITION_CUTOFF
+        passType: 0
+      - keywords: TRANSITION_CUTOFF UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: TRANSITION_FADE
+        passType: 0
+      - keywords: TRANSITION_FADE UNITY_UI_ALPHACLIP
+        passType: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d43f626d9b5f4d729097092ded48bdb, type: 3}
+  m_Name: UIEffectProjectSettings
+  m_EditorClassIdentifier: 
+  m_TransformSensitivity: 1
+  m_RuntimePresets:
+  - {fileID: 2647077542182357890, guid: 6a7ada02d0d7e462a99a19683f450245, type: 3}
+  m_UseHDRColorPicker: 1
+  m_ShaderVariantCollection: {fileID: 0}
+  m_ShaderVariantRegistry:
+    m_OptionalShaders: []
+    m_Asset: {fileID: -1099031146529065836}
+    m_ErrorOnUnregisteredVariant: 0
+    m_UnregisteredVariants: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d82580ea65a11147aa9fcfb9caad97a, type: 3}
+  m_Name: 6_AREA_OF_BOMB
+  m_EditorClassIdentifier: 
+  upgraderGroupID: 3
+  upgraderID: 39
+  format: 0
+  TextID: Bomb
+  maxLevel: 50
+  coefficient: 0
+  property: {x: 0, y: 0.02, z: 0.48}
+  price_base: {x: 0, y: 9, z: 16}
+  price_ingame: {x: 20, y: 245, z: 235}
+  upgraderCategory: 19

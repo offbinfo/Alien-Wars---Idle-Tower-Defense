@@ -1,0 +1,906 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34afa3896685c440b0d31960591afc2, type: 3}
+  m_Name: SO_RankData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: rewardRankDicts
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[TypeRank, Assembly-CSharp],[System.Collections.Generic.List`1[[RankData,
+        Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[TypeRank, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[RankData, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 3|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 200
+    - Name: powerStone
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 150
+    - Name: powerStone
+      Entry: 3
+      Data: 35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 100
+    - Name: powerStone
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 75
+    - Name: powerStone
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 65
+    - Name: powerStone
+      Entry: 3
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 60
+    - Name: powerStone
+      Entry: 3
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 55
+    - Name: powerStone
+      Entry: 3
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 50
+    - Name: powerStone
+      Entry: 3
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 45
+    - Name: powerStone
+      Entry: 3
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 40
+    - Name: powerStone
+      Entry: 3
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[RankData, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 14|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 300
+    - Name: powerStone
+      Entry: 3
+      Data: 80
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 250
+    - Name: powerStone
+      Entry: 3
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 200
+    - Name: powerStone
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 150
+    - Name: powerStone
+      Entry: 3
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 125
+    - Name: powerStone
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 100
+    - Name: powerStone
+      Entry: 3
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 90
+    - Name: powerStone
+      Entry: 3
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 80
+    - Name: powerStone
+      Entry: 3
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 70
+    - Name: powerStone
+      Entry: 3
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 50
+    - Name: powerStone
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[RankData, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 25|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 400
+    - Name: powerStone
+      Entry: 3
+      Data: 160
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 350
+    - Name: powerStone
+      Entry: 3
+      Data: 140
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 300
+    - Name: powerStone
+      Entry: 3
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 250
+    - Name: powerStone
+      Entry: 3
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 225
+    - Name: powerStone
+      Entry: 3
+      Data: 65
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 200
+    - Name: powerStone
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 175
+    - Name: powerStone
+      Entry: 3
+      Data: 56
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 150
+    - Name: powerStone
+      Entry: 3
+      Data: 53
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 125
+    - Name: powerStone
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 100
+    - Name: powerStone
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[RankData, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 36|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 600
+    - Name: powerStone
+      Entry: 3
+      Data: 320
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 500
+    - Name: powerStone
+      Entry: 3
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 400
+    - Name: powerStone
+      Entry: 3
+      Data: 280
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 350
+    - Name: powerStone
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 325
+    - Name: powerStone
+      Entry: 3
+      Data: 175
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 300
+    - Name: powerStone
+      Entry: 3
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 275
+    - Name: powerStone
+      Entry: 3
+      Data: 125
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 250
+    - Name: powerStone
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 200
+    - Name: powerStone
+      Entry: 3
+      Data: 90
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 150
+    - Name: powerStone
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 46|System.Collections.Generic.List`1[[RankData, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 47|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 800
+    - Name: powerStone
+      Entry: 3
+      Data: 425
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 700
+    - Name: powerStone
+      Entry: 3
+      Data: 400
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 600
+    - Name: powerStone
+      Entry: 3
+      Data: 375
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 500
+    - Name: powerStone
+      Entry: 3
+      Data: 350
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 475
+    - Name: powerStone
+      Entry: 3
+      Data: 325
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 450
+    - Name: powerStone
+      Entry: 3
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 425
+    - Name: powerStone
+      Entry: 3
+      Data: 275
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 54|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 400
+    - Name: powerStone
+      Entry: 3
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 55|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 375
+    - Name: powerStone
+      Entry: 3
+      Data: 225
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 200
+    - Name: powerStone
+      Entry: 3
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[RankData, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 58|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 100
+    - Name: powerStone
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 59|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 80
+    - Name: powerStone
+      Entry: 3
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 65
+    - Name: powerStone
+      Entry: 3
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 50
+    - Name: powerStone
+      Entry: 3
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 62|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 45
+    - Name: powerStone
+      Entry: 3
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 40
+    - Name: powerStone
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 30
+    - Name: powerStone
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 65|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 20
+    - Name: powerStone
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 15
+    - Name: powerStone
+      Entry: 3
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|RankData, Assembly-CSharp
+    - Name: gem
+      Entry: 3
+      Data: 10
+    - Name: powerStone
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  textRank:
+  - 1
+  - 2
+  - 3-4
+  - 5-6
+  - 7-8
+  - 9-10
+  - 11-12
+  - 13-15
+  - 16-22
+  - 23-30

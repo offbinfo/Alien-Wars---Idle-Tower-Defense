@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb591abb33d4f9e40a8308edcf391c3f, type: 3}
+  m_Name: UpgradeGroup_Satellite
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: cb324a146e1a2a448bd6e57f977af4b1, type: 2}
+    - {fileID: 11400000, guid: baa0f270f9e54e0469e525206636deb3, type: 2}
+    - {fileID: 11400000, guid: 860c1e743b014ce429f4d8b4b0524a7f, type: 2}
+    - {fileID: 11400000, guid: adb97c4581c31d44eb7996920b9de68c, type: 2}
+    - {fileID: 11400000, guid: cc063547ebc71444b8675c30e0052ca1, type: 2}
+    - {fileID: 11400000, guid: fb07108e160750e48b78d37fa43b1f7d, type: 2}
+    - {fileID: 11400000, guid: 6c9ce340048ba484ebeaf057192c36fc, type: 2}
+    - {fileID: 11400000, guid: 1ce1a33d609cbc7478879ac9d02b6bf0, type: 2}
+    - {fileID: 11400000, guid: 6b0a220a39a65ff4fa5738aada515973, type: 2}
+    - {fileID: 11400000, guid: 19feace146945d340b92c6ca3cc11458, type: 2}
+    - {fileID: 11400000, guid: 37014de5ad83b194c99c3364724c5976, type: 2}
+    - {fileID: 11400000, guid: e112cbd3948b2624eb02bf789bfb527f, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: upgradeDatas
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[UpgraderCategory, Assembly-CSharp],[ClusterUpgradeInfor,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[UpgraderCategory,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: 2|ClusterUpgradeInfor, Assembly-CSharp
+    - Name: price
+      Entry: 4
+      Data: 8000
+    - Name: buyingType
+      Entry: 3
+      Data: 2
+    - Name: upgraderCategory
+      Entry: 3
+      Data: 18
+    - Name: levelUnlock
+      Entry: 3
+      Data: 1
+    - Name: upgradeInforDatas
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[SO_UpgradeInforData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: 4|ClusterUpgradeInfor, Assembly-CSharp
+    - Name: price
+      Entry: 4
+      Data: 15000
+    - Name: buyingType
+      Entry: 3
+      Data: 2
+    - Name: upgraderCategory
+      Entry: 3
+      Data: 19
+    - Name: levelUnlock
+      Entry: 3
+      Data: 2
+    - Name: upgradeInforDatas
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[SO_UpgradeInforData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: 6|ClusterUpgradeInfor, Assembly-CSharp
+    - Name: price
+      Entry: 4
+      Data: 500000
+    - Name: buyingType
+      Entry: 3
+      Data: 2
+    - Name: upgraderCategory
+      Entry: 3
+      Data: 29
+    - Name: levelUnlock
+      Entry: 3
+      Data: 3
+    - Name: upgradeInforDatas
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[SO_UpgradeInforData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: 8|ClusterUpgradeInfor, Assembly-CSharp
+    - Name: price
+      Entry: 4
+      Data: 1.5E+07
+    - Name: buyingType
+      Entry: 3
+      Data: 2
+    - Name: upgraderCategory
+      Entry: 3
+      Data: 30
+    - Name: levelUnlock
+      Entry: 3
+      Data: 4
+    - Name: upgradeInforDatas
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[SO_UpgradeInforData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
